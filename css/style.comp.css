@@ -1,0 +1,170 @@
+/* START NEWSLETTER 1*/
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  /*  @include respond(phone) {
+    font-size: 50%; } */
+  /*@include respond(phone) {} //width < 600
+    font-size: 30%;} // 1rem = 8px, 8/16 = 50%
+*/ }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem; }
+  @media only screen and (max-width: 56.25em) {
+    body {
+      padding: 0; } }
+      
+body {
+  font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.newsletterMain {
+  display: flex;
+  flex-flow: column nowrap; }
+  .newsletterMain__firstContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-transform: uppercase;
+    background: repeating-linear-gradient(45deg, #FBFDFC, #FBFDFC 10px, #0F1E45 10px, #0F1E45 25px); }
+    .newsletterMain__firstContainer__circle {
+      height: 15rem;
+      width: 15rem;
+      border-radius: 50%;
+      background-color: #fff;
+      margin: 10px 40px;
+      font-family: "Engravers Gothic W01 Bold";
+      color: #0F1E45;
+      box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-self: flex-end;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center; }
+      .newsletterMain__firstContainer__circle--h2 {
+        font-size: 6rem;
+        color: #15B257;
+        font-family: "Regular"; }
+    .newsletterMain__firstContainer__boxContainer {
+      background-color: #fff;
+      box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+      padding: 4rem;
+      color: #0F1D40;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center; }
+      @media only screen and (max-width: 56.25em) {
+        .newsletterMain__firstContainer__boxContainer {
+          padding: 2rem; } }
+      .newsletterMain__firstContainer__boxContainer--titleH2 {
+        font-size: 10rem;
+        letter-spacing: 2rem;
+        font-family: "Regular"; }
+        @media only screen and (max-width: 56.25em) {
+          .newsletterMain__firstContainer__boxContainer--titleH2 {
+            font-size: 7rem; } }
+      .newsletterMain__firstContainer__boxContainer--mintxt {
+        font-size: 3rem;
+        letter-spacing: 3px;
+        font-family: "Engravers Gothic W01 Bold" !important; }
+      .newsletterMain__firstContainer__boxContainer--titleH3 {
+        font-family: "Blenny W01 Black";
+        font-size: 3rem;
+        letter-spacing: 5px; }
+    .newsletterMain__firstContainer__buttonContainer--button {
+      text-transform: uppercase;
+      width: 295px;
+      height: 55px;
+      margin: 5rem;
+      outline: none;
+      border: 0;
+      color: #Fff;
+      background-color: #15B257;
+      font-family: "Engravers Gothic W01 Bold";
+      font-size: 3rem;
+      letter-spacing: 6px;
+      transition: background-color .5s; }
+      .newsletterMain__firstContainer__buttonContainer--button:hover {
+        cursor: pointer;
+        color: #15B257;
+        background-color: #FFF; }
+  .newsletterMain__footer {
+    display: flex; }
+    .newsletterMain__footer__details {
+      text-align: center;
+      background-color: #0F1D40;
+      color: #888;
+      height: auto;
+      width: 100%;
+      padding: 30px;
+      padding: 4rem;
+      font-family: Helvetica;
+      font-size: 13px; }
+      .newsletterMain__footer__details h3 {
+        text-transform: uppercase;
+        padding: 10px; }
+      .newsletterMain__footer__details p:last-child {
+        font-style: italic;
+        padding-top: 1.5rem; }
+
+@font-face {
+  font-family: "Blenny W01 Black";
+  src: url("../fonts/Blenny W01 Black.eot");
+  /* IE9*/
+  src: url("../fonts/Blenny W01 Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Blenny W01 Black.woff2") format("woff2"), url("../fonts/Blenny W01 Black.woff") format("woff"), url("../fonts/Blenny W01 Black.ttf") format("truetype"), url("../fonts/Blenny W01 Black.svg#Blenny W01 Black") format("svg");
+  /* iOS 4.1- */ }
+
+@font-face {
+  font-family: "Regular";
+  src: url("../fonts/Regular.eot");
+  /* IE9*/
+  src: url("../fonts/Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Regular.woff2") format("woff2"), url("../fonts/Regular.woff") format("woff"), url("../fonts/Regular.ttf") format("truetype"), url("../fonts/Regular.svg#Regular") format("svg");
+  /* iOS 4.1- */ }
+
+
+
+
+@font-face {
+  font-family: "Lovelo-LineLight";
+  src: url("../fonts/Lovelo-LineLight.eot");
+  /* IE9*/
+  src: url("../fonts/Lovelo-LineLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Lovelo-LineLight.woff2") format("woff2"), url("../fonts/Lovelo-LineLight.woff") format("woff"), url("../fonts/Lovelo-LineLight.ttf") format("truetype"), url("../fonts/Lovelo-LineLight.svg#Lovelo-LineLight") format("svg");
+  /* iOS 4.1- */ }
+
+@font-face {
+  font-family: "Engravers Gothic W01 Bold";
+  src: url("../fonts/Engravers Gothic W01 Bold.eot");
+  /* IE9*/
+  src: url("../fonts/Engravers Gothic W01 Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Engravers Gothic W01 Bold.woff2") format("woff2"), url("../fonts/Engravers Gothic W01 Bold.woff") format("woff"), url("../fonts/Engravers Gothic W01 Bold.ttf") format("truetype"), url("../fonts/Engravers Gothic W01 Bold.svg#Engravers Gothic W01 Bold") format("svg");
+  /* iOS 4.1- */ }
+
+@font-face {
+  font-family: "onlinewebfonts";
+  src: url("../fonts/onlinewebfonts.eot");
+  src: url("../fonts/onlinewebfonts.eot?#iefix") format("embedded-opentype"), url("../fonts/onlinewebfonts.woff2") format("woff2"), url("../fonts/onlinewebfonts.woff") format("woff"), url("../fonts/onlinewebfonts.ttf") format("truetype"), url("../fonts/onlinewebfonts.svg#onlinewebfonts") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
